@@ -1,0 +1,62 @@
+html {
+    font-size: 16px;
+}
+/*Header with name */
+
+#header {
+    width: 98vw;
+    height: 4em;
+    background-color: darkturquoise;
+    margin-top: 0px;
+    padding-top: 0px;
+    
+}
+
+#nameTag {
+    color: white;
+    font-family: 'abril fatface', Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 4em;
+    text-align: right;
+    padding-right: 1vw;
+    margin-top: 2vw;
+}
+
+/* Navigation */
+
+.navbar {
+    display: flex;
+    list-style: none;
+    /*width: 100vw;*/
+    align-items: flex-end;
+}
+
+.navlist {
+    /*align-content: flex-end;*/
+    width: 98vw;
+    background-color: aliceblue;
+    display: inline-flex;
+    /*justify-content: space-between;*/
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.list-item {
+    
+    display: inline-flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.list-link {
+    text-decoration: none;
+}
+
+/* Middle image */
+
+.hero-image{
+    width: 98vw;
+    
+}
